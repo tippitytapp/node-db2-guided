@@ -21,3 +21,7 @@ Please follow along as the instructor explores schema design with this API.
 ## NOTES
 
 - every table should have a primary key
+
+knex migrate:make <name>
+knex migrate:latest --env-development //default to development
+knex migrate:rollback --env-production
